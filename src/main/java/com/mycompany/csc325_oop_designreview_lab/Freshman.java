@@ -21,4 +21,10 @@ public class Freshman extends Student{
         this.credits = credits;
     }
 
+    //toString method for Freshman
+    @Override
+    public String toString() {
+        return "Freshman{name='" + getName() + "', age=" + getAge()
+                + ", credits=" + credits + ", gpa=" + getGpa() + "}";
+    }
 }
