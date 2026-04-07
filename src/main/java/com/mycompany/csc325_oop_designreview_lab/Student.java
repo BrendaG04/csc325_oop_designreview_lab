@@ -16,6 +16,9 @@ public class Student extends Human {
     // Private field for the student's address (required by Human's abstract methods)
     private String address;
 
+    //Field for GPA
+    private double gpa;
+
     //Humans constructor requires (String name, short age)
     //super(name, age) here. The int age parameter is cast to short to match.
     public Student(String name, int age) {
@@ -33,8 +36,7 @@ public class Student extends Human {
     }
 
 	// ToDo 3: Add a field for GPA and create a setter and a getter
-    //Field for GPA
-    private double gpa;
+
 
     public double getGpa() {
         return gpa;
