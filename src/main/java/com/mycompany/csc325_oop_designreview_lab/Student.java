@@ -29,6 +29,15 @@ public class Student extends Human {
     }
 
 	// ToDo 3: Add a field for GPA and create a setter and a getter
+    private double gpa;
+
+    public double getGpa() {
+        return gpa;
+    }
+
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
 
 	// ToDo 4: Add comments to your code
 }
